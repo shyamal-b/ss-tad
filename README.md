@@ -1,6 +1,6 @@
 # End-to-End, Single-Stream Temporal Action Detection in Untrimmed Videos (SS-TAD)
 
-Welcome to the official repo for "[End-to-End, Single-Stream Temporal Action Detection](http://vision.stanford.edu/pdf/buch2017bmvc.pdf)"! This work was presented as an Oral Talk at [BMVC 2017](https://bmvc2017.london/) in London.
+Welcome to the official repo for "[End-to-End, Single-Stream Temporal Action Detection](https://www.dropbox.com/s/dim9jton0qaw1kj/buch2017bmvc.pdf?dl=0)"! This work was presented as an Oral Talk at [BMVC 2017](https://bmvc2017.london/) in London.
 
 **SS-TAD** is a new, efficient model for generating temporal action _detections_ in untrimmed videos. Analogous to object detections for *images*, temporal action detections provide the temporal bounds in *videos* where actions of interest may lie in addition to their action classes.
 
@@ -11,15 +11,15 @@ Welcome to the official repo for "[End-to-End, Single-Stream Temporal Action Det
 <br/>
 </a>
 
-This work builds upon our prior work published at [CVPR17](http://cvpr2017.thecvf.com/) on "[SST: Single-Stream Temporal Action Proposals](https://github.com/shyamal-b/sst/)". Now, we are able to provide _end-to-end_ temporal action detection, without requiring a separate classification stage on top of proposals. Furthermore, we observe a _significant_ increase in overall detection performance. For details, please refer to our [paper](http://vision.stanford.edu/pdf/buch2017bmvc.pdf).
+This work builds upon our prior work published at [CVPR17](http://cvpr2017.thecvf.com/) on "[SST: Single-Stream Temporal Action Proposals](https://github.com/shyamal-b/sst/)". Now, we are able to provide _end-to-end_ temporal action detection, without requiring a separate classification stage on top of proposals. Furthermore, we observe a _significant_ increase in overall detection performance. For details, please refer to our [paper](https://www.dropbox.com/s/dim9jton0qaw1kj/buch2017bmvc.pdf?dl=0).
 
 ### Resources
 
 Quick links:
-[[paper](http://vision.stanford.edu/pdf/buch2017bmvc.pdf)]
+[[paper](https://www.dropbox.com/s/dim9jton0qaw1kj/buch2017bmvc.pdf?dl=0)]
 [[code](https://github.com/shyamal-b/ss-tad/)]
-<!-- [[oral presentation](Coming soon!)] -->
-<!-- [[supplementary](Coming soon!)] -->
+[oral presentation]
+<!-- [supplementary] -->
 
 **Note:** Currently, the code in this repo is in *pre-release* - see `code/README.md` for details on planned updates.
 
@@ -29,10 +29,10 @@ Please use the following bibtex to cite our work:
       author = {Shyamal Buch and Victor Escorcia and Bernard Ghanem and Li Fei-Fei and Juan Carlos Niebles},
       title = {End-to-End, Single-Stream Temporal Action Detection in Untrimmed Videos},
       year = {2017},
-      booktitle = {BMVC}
+      booktitle = {Proceedings of the British Machine Vision Conference ({BMVC})}
       }
 
-Also, if you find this work useful, you may *also* find our prior work of interest:  [SST proposals github repo](https://github.com/shyamal-b/sst/)
+If you find this work useful, you may *also* find our prior work of interest:  [SST proposals github repo](https://github.com/shyamal-b/sst/)
 
 <!-- As part of this repo, we also include *evaluation notebooks*, *SS-TAD detections* for THUMOS'14, and *pre-trained model parameters*. Please see the `code/` and `data/` folders for more. -->
 
